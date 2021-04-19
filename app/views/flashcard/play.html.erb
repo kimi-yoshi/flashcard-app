@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSDemo2</title>
+
+</head>
+<body id="flashcard-play">
+  <div id="card" data-word="<%= @word.to_json %>">
+    <div id="card-front">front</div>
+    <div id="card-back">back</div>
+
+  </div>
+  <div id="btn">
+    <%= link_to "NEXT", flashcard_play_path %>
+  </div>
+
+  <%= javascript_pack_tag 'test' %>
+</body>
+</html>

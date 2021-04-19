@@ -1,0 +1,11 @@
+<h1>Top#home</h1>
+
+<%= form_with url: top_path, method: :post, local: true do |form| %>
+ <%= form.text_field :word %>
+ <%= form.submit '投稿する' %>
+<% end %>
+
+<%= link_to "単語帳", flashcard_top_path %>
+
+
+

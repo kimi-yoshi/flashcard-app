@@ -1,0 +1,25 @@
+// Place all the styles related to the top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#word-table{
+  table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    .thead{
+      tr{
+        th{
+          text-align: center;
+          padding: 0 10px;
+        }
+      }
+    }
+    .tbody{
+      tr{
+        td{
+          text-align: center;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}
